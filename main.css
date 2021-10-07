@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "customFont";
+    src: url('Assets/Font/alagard.ttf') format('truetype');
+}
+
+header nav h1 {
+    font-family: "customFont";
+    font-size: 40px;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "customFont";
+}
+
+.lines{
+    position: relative;
+    right: 10px;
+    height: 35px;
+}
+
+body {
+    background-color: rgb(190, 158, 120);
+}
+
+header {
+    background-color: rgb(223, 186, 141);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+
+
+h2{
+    position: relative;
+    
+}
+
+header nav .tabs {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .tabs .tab {
+    display: block;
+}
+
+header nav .tabs .tab a[data-switcher] {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(168, 168, 83);
+    cursor: pointer; 
+}
+
+header nav .tabs .tab:hover a[data-switcher] {
+    background-color: rgb(124, 124, 59);
+}
+
+header nav .tabs .tab.is-active a[data-switcher] {
+    background-color: rgb(221, 221, 105);
+    font-weight: 700;
+}
+
+main {
+    padding-left: 142px;
+    padding-right: 142px;
+
+}
+
+.pages {
+    margin-top: 100px ;
+    padding: 50px 30px;
+    border-radius: 8px;
+    background-color: rgb(223, 186, 141);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) ;
+}
+
+.pages .page {
+    display: none;
+    
+}
+
+.pages .page.is-active {
+    display: block;
+}

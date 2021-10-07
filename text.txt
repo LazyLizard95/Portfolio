@@ -1,0 +1,20 @@
+Intropage: Greetings weary traveler! News has spread you are
+seeking a wise wizard percient in the mystifying languages of
+Javascript, HTML, CSS, and C++. Look no further! You are in the 
+right place! If you would care to learn speak of the following
+and I will hear thee. About, Projects, or Contact.
+
+About: The wizard you are seeking is regarded to as Thomas Gola.
+He is twenty six years of age, currently resisiding in Hartford Connecticut.
+This sage has a passion for not only creating the finest of digital web pages,
+but the creation of interactive media commonly regarded to as Video games
+
+Projects: I have scoured the lands to find these spells the wizard regards as 
+'programs'. Here is what I could find:
+
+Contact: The wizard has various lines open to communication, they include:
+
+const areas = ["The wizard you are seeking is regarded to as Thomas Gola. He is twenty six years of age, currently resisiding in Hartford Connecticut.This sage has a passion for not only creating the finest of digital web pages,but the creation of interactive media commonly regarded to as Video games. If you are lost type Help", 
+"I have scoured the lands to find these spells the wizard regards as 'programs'. Here is what I could find:", 
+"The wizard has various lines open to communication, they include:", 
+"List of known commands are: About, Projects, Contact and Help"];
