@@ -1,13 +1,15 @@
 window.onload = () => {
 const tab_switchers = document.querySelectorAll('[data-switcher]');
-const userInput = document.getElementById("main");
+let userInput = document.getElementById("main");
 
 
 
 userInput.addEventListener('keyup', (event) => {
     let current_page = document.querySelector('.pages .page.is-active');
-    const userInput = document.getElementById("main");
+    let userInput = document.getElementById("main");
+    userInput.value = userInput.value.toLowerCase();
     if (event.key == 'Enter'){
+        
         if(userInput.value == "about"){
             current_page.classList.remove('is-active');
             let next_page = document.querySelector(`.pages .page[data-page="3"]`);
