@@ -1,12 +1,12 @@
 window.onload = () => {
 const tab_switchers = document.querySelectorAll('[data-switcher]');
-let userInput = document.getElementById("main");
+let userInput = document.querySelector(".textBox");
 
 
 
 userInput.addEventListener('keyup', (event) => {
     let current_page = document.querySelector('.pages .page.is-active');
-    let userInput = document.getElementById("main");
+    let userInput = document.querySelector(".textBox");
     userInput.value = userInput.value.toLowerCase();
     if (event.key == 'Enter'){
         
