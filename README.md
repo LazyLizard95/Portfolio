@@ -18,5 +18,5 @@ commercial reasons.
 
 Wizard can be found at: https://opengameart.org/content/wizard-5
 
-Font can be found on https://www.dafont.com/ titled Alagard by
+Font can be found at https://www.dafont.com/ titled Alagard by
 user Hewett Tsoi.
