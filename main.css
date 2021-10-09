@@ -83,11 +83,11 @@ nav .tabs {
 }
 
 .tab {
-    display: block;
+    display: flex;
 }
 
 header nav .tabs .tab a[data-switcher] { /*inactive unhovered tab*/
-    display: block;
+    display: flex;
     padding: 15px 30px;
     text-decoration: none;
     color: #FFF;
@@ -128,3 +128,11 @@ main {
     flex-direction: column;
     column-gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+        
+        
+    }
+  }
